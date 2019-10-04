@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.scp.spring.hbb1.Product" table = "product21">
+      <id name = "productId" type = "int" column = "P_ID"></id>
+      <property name = "productName" column = "P_NAME" type = "string"/>
+      <property name = "productLabel" column = "P_LBL" type = "string"/>
+	  <property name = "productPrice" column = "P_PRICE" type = "int"/>
+      <property name = "productQty" column = "P_QTY" type = "int"/>
+    </class>
+</hibernate-mapping>
